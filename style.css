@@ -80,8 +80,7 @@
     
     
 }
-.img1:hover
-{
+.img1:hover{
     height: 100px;
     transform:rotateX(-25deg);
     transition: 0.3s ease;
@@ -120,6 +119,10 @@
    gap:15px;
    margin:20px;
 }
+.li1:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
 #dash{
     margin: 8px 5px;
     height:100%;
@@ -133,10 +136,24 @@
     top:15px;
     opacity:0.5;
 }
+#downimg:hover{
+    
+    cursor:pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    opacity: 1;
+}
+
 .install{
     position: relative;
     
     bottom:15px;
+}
+.install:hover
+{
+    cursor:pointer;
+    
+    
 }
 .login 
 {
