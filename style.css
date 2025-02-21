@@ -1,0 +1,404 @@
+*{
+    margin:0;
+    font-family: sans-serif;
+     
+}
+
+  /* For Webkit browsers like Chrome, Safari, and Edge */
+  div::-webkit-scrollbar {
+    width: 12px;
+    
+  }
+  
+  div::-webkit-scrollbar-thumb {
+    background-color: rgb(83, 83, 83);
+    border-radius: 10px; /* Rounded thumb */
+  }
+  div::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(170, 170, 170);
+    border-radius: 10px; /* Rounded thumb */
+  }
+  div::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+
+
+.navibar{
+    display:flex;
+    background-color: black;
+    color:white;
+    height:60px;
+    width:100%;
+    flex-direction: left;
+    position:fixed;
+    
+    
+}
+.search 
+{
+    
+    height:70%;
+    display:flex;
+    width:50%;
+    border-radius: 200px;
+    font-size: 25px;
+    justify-content:space-evenly;
+    margin:2px;
+    background-color: #1F1F1F;
+    color:white;
+    margin-top: 10px;
+    
+   
+    transition: background-color 0.6s ease;
+    
+}
+
+
+#inputbox
+{
+    font-size: 25px;
+    background: #00000000;
+    text-decoration: none;
+    border: none;
+    color:white;
+    
+}
+.search:hover{
+    background-color: rgba(255, 255, 255, 0.221);
+    cursor:pointer;
+}
+
+.img1
+{
+    height:100%;
+    margin-right:1%;
+    display:flex;
+    flex-direction: left;
+    
+    background-color: black;
+    
+    
+}
+.img1:hover
+{
+    height: 100px;
+    transform:rotateX(-25deg);
+    transition: 0.3s ease;
+    cursor:pointer; 
+}
+#img2:hover
+{
+    height: 70px;
+    transform:rotateX(-25deg);
+    transition: 0.3s ease;
+    cursor:pointer;
+}
+#img3
+{
+    height:70px;
+    width:70px;
+    padding:0;
+}
+#img2
+{
+    margin-left: 1px;
+    margin-right: 2%;
+    display:flex;
+    border-radius: 100%;
+    border-width: 5px;
+    padding:5px;
+    border-collapse: collapse;
+    position:relative;
+    bottom:-6px;
+}
+.PSD{
+    display:flex;
+    text-decoration: none;
+    justify-content:space-around;
+   list-style: none;
+   gap:15px;
+   margin:20px;
+}
+#dash{
+    margin: 8px 5px;
+    height:100%;
+    font-size:30px; 
+    margin-right: 15px;
+    
+}
+#downimg{
+    margin-top:15px;
+    position:relative;
+    top:15px;
+    opacity:0.5;
+}
+.install{
+    position: relative;
+    
+    bottom:15px;
+}
+.login 
+{
+    height:60%;
+    text-align: center;
+    
+    width:80px; 
+    border:black;
+    border-style: solid;
+    border-radius: 20%;
+    
+    display:flex;
+    justify-content:center;
+    position:relative;
+    
+    align-items: center;
+    bottom: 15px;
+    background-color: white;
+    color:black ;
+    left: 25px;
+    top:10px;
+    transform-box:content-box;
+    margin-bottom:10px;
+    
+}
+/* li{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+} */
+.navibar img{
+    margin:0;
+    padding:0;
+    height:5vh;
+    width:5vh;
+    color:white;
+}
+#srhimg
+{
+    height:100%;
+    width:100%;
+    
+   opacity:100%
+}
+#srhimgdiv
+{
+    margin: 3px;
+    padding:5px;
+    border-radius: 100%;
+    background-color:#00000000 ;
+    opacity:50%
+    
+    
+}
+#maindiv
+{
+    
+    width:100%;
+    height:100vh;
+    background-color: rgba(23, 17, 17, 0.999);
+    display:flex;
+    justify-content: right;
+    align-items: flex-start;
+}
+#divleft
+{
+    height:600px;
+    width:500px;
+    background-color: #020101d5;
+    border-radius: 20px;
+    position:fixed;
+    top:65px;
+    left: 0px;
+    margin-right: 5px;
+    margin-top:5px;
+}
+#divright
+{
+    height:calc(100% - 65px - 65px);
+    width:1025px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: rgba(69, 67, 64, 0.744);
+    top:65px;
+    position: relative;
+    border-radius: 20px;
+   
+}
+#div1
+{
+    height:100px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.643);
+    color: white;
+}
+#div11
+{
+    display:flex;
+    position:relative;
+    top:40px;
+    left:20px;
+    opacity:0.5;
+}
+#div2
+{
+    height:135px;
+    border-radius: 10px;
+    width:100%;
+    background-color: rgb(35, 35, 35);
+    align-items: center;
+    color: white;
+    margin-bottom: 15px;
+    
+}
+#div2 h3{
+    position : relative;
+    top:15px;
+    left:15px;
+}
+.button
+{
+    color:black;
+    
+    background-color:white;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    display:flex;
+    width:37%;
+    
+   padding:5px;
+    text-align: center;
+    position:relative;
+    left:20px;
+    margin-top: 15px;
+    align-content:center;
+    align-items: center;
+}
+#div3
+{
+    height:135px;
+    border-radius: 10px;
+    width:100%;
+    background-color: rgb(35, 35, 35);
+    align-items: center;
+    color: white;
+}
+#div3 h3{
+    position : relative;
+    top:15px;
+    left:15px;
+    font-weight: bold;
+}
+#div4
+{
+    color:white;
+    display:flex;
+    flex-wrap:wrap ;
+}
+span {
+    margin:20px;
+    /* text-shadow: #020101d5; */
+    
+}
+#div4 span:hover{
+    cursor:pointer;
+    color:grey;
+}
+#div4 .button{
+   position:relative;
+   top:30px;
+   display:flex;
+   align-items: center;
+   justify-content:center;
+    
+}
+.button:hover{
+    transform: skewX(-20deg);
+    cursor:pointer;
+    transition: 0.3s ease;
+    padding: 1%;
+}
+
+#foot
+{
+    height:65px;
+    display:flex;
+    position:fixed;
+    bottom: 0px;
+    width:100%;
+    color:white;
+    background-color: rgb(34, 11, 34);
+}
+#div11:hover
+{
+    opacity:1;
+    transition: 0.5s ease;
+    cursor:pointer;
+}
+#div23
+{
+   width:490px; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:280px;
+}
+#div223{
+    height:150px;
+    width:100%;
+    background-color: rgba(128, 128, 128, 0.211);
+    border-color: aqua;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.firstrows
+{
+    height:350px;
+    width:100%;
+    background-color: rgba(1, 1, 1, 0.806);
+    display:flex;
+    justify-content:center;
+    align-items: center; 
+}
+
+.rows
+{
+    height:500px;
+    width:100%;
+    
+    height:350px;
+    width:100%;
+    background-color: rgb(14, 12, 12);
+    display:flex;
+    justify-content:center;
+    align-items: center; 
+}
+.artist
+{
+    height:200px;
+    width:20%;
+    background-color: bisque;
+    border-radius: 10px;
+    margin:30px;
+    display:flex;
+    margin-top: 50px;
+    background-image: url(arjit.jpeg);
+    background-position:center;
+    background-size: cover;
+}
+
+.artist:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    cursor:pointer;
+}
+.name:hover
+{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
